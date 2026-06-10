@@ -12,13 +12,13 @@ Projeto simples de formulário web destinado ao público JovemTech. Fornece um l
 
 - HTML: `index.html`
 - CSS: `style.css`
-- Scripts/Auxiliares: `Utilitarios/`
+- imagens: `Utilitarios/`
 
 ## Estrutura do repositório
 
 - `index.html` — página principal do formulário.
 - `style.css` — estilos do projeto.
-- `Utilitarios/` — scripts e utilitários (validação, helpers).
+- `Utilitarios/` — imagens .
 
 ## Como usar (local)
 
