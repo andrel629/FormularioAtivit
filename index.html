@@ -1,17 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
+
 <body>
-    <p>a</p>
-    
-    <my-div ></my-div>
-    <my-div2></my-div2>
-    <p>a</p>
+    <form action="" id="myform">
+
+        <div class="cabecalho">
+            <img src="./Utilitarios/png-transparent-wall-decal-sticker-bodybuilding-fitness-centre-bodybuilding-physical-fitness-fitness-hand-thumbnail-removebg-preview.png" alt="Logo" srcset="">
+            <h2>Malhadores Fofos</h2>
+        </div>
+        
+        <div class="inputBox">
+            <label for="name" class="label">nome</label>
+            <input type="text" class="input" id="name">
+
+        </div>
+        <div class="inputBox">
+            <label for="email" class="label">e-mail</label>
+            <input type="email" class="input" id="email">
+        </div>
+
+
+
+
+
+        <select name="Planos" id="Planos" class="input">
+            <option value="" checked>Planos</option>
+            <option value="Musculação">Musculação</option>
+            <option value="Dança">Dança</option>
+            <option value="Ginastica">Ginastica</option>
+            <option value="Atletismo">Atletismo</option>
+            <option value="Broderagem">Broderagem</option>
+        </select>
+        <div class="camposCriticos">
+            <div class="inputBox">
+                <label for="CPF" class="label">CPF</label>
+                <input type="text" name="cpf" id="cpf" class="input">
+            </div>
+
+            <div class="inputBox">
+                <label for="RG" class="label">RG</label>
+                <input type="text" name="rg" id="rg" class="input">
+            </div>
+
+        </div>
+        <div class="inputBox">
+            <label for="Data de Nascimento" class="label">Data de Nascimento</label>
+        <input type="date" name="" id="datanascimento" class="input">
+
+        </div>
+        
+        <fieldset id="Endereco">
+            <legend>Endereco</legend>
+            <div class="inputBox">
+                <label for="Estado" class="label">Estado</label>
+                <input type="text" class="input" id="Estado">
+            </div>
+            <div class="inputBox">
+                <label for="Cidade" class="label">Cidade</label>
+                <input type="text" class="input" id="Cidade">
+            </div>
+            <div class="inputBox">
+                <label for="Bairro" class="label">Bairro</label>
+                <input type="text" class="input" id="Bairro">
+            </div>
+
+        </fieldset>
+        <div class="inputBox">
+            <label for="cell" class="label">Telefone</label>
+            <input type="number" class="input" id="cell">
+        </div>
+
+        <div class="inputBox">
+            <label for="obs" class="label">Observação</label>
+        <textarea name="obs" id="obs" cols="20" rows="5" ></textarea>
+        </div>
+        
+        <button type="submit" class="btn">Enviar</button>
+
+
+
+    </form>
+
 </body>
-<script src="Components.js"></script>
+
 </html>
